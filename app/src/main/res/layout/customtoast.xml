@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:clipToPadding="false"
+    android:paddingLeft="12px"
+    android:paddingTop="12px"
+    android:paddingBottom="12px">
+
+    <ImageView
+        android:id="@+id/custom_toast_image"
+        android:layout_width="195dp"
+        android:layout_height="202dp"
+        android:contentDescription="Hello world"
+        android:paddingRight="12px"
+        android:src="@drawable/download" />
+
+    <TextView
+        android:id="@+id/custom_toast_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="To"
+        android:paddingTop="45px"
+        android:text="Openning Calculator"
+        android:textSize="24sp" />
+</LinearLayout>
+
+

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IntentsProject</string>
+    <string name="label1">Number 1:</string>
+    <string name="label2">Number 2:</string>
+    <string name="button">Button</string>
+    <string name="answer">Answer</string>
+    <string name="btnPlus">+</string>
+    <string name="labelSub">-</string>
+    <string name="labelMulti">*</string>
+    <string name="labelDiv">/</string>
+    <string name="btnOk">OK</string>
+</resources>
